@@ -1,7 +1,14 @@
 <!--index.wxml-->
 <view class="container">
 
+<view class='tipInfo'>
+提供莆田系医院查询，例如输入上海仁爱医院。
+</view>
+
+
 <view class='search-container'>
+
+
 
 <view class="page-section">
     <view class="weui-cells weui-cells_after-title">

@@ -8,7 +8,8 @@ Page({
   data: {
     searchKey:"",
     title:"",
-    phone:""
+    phone:"",
+    isPt:false
   },
 
   /**
@@ -24,7 +25,8 @@ Page({
       this.setData(
         {
           title:data[0],
-          phone:data[1]
+          phone:data[1],
+          isPt:true
         }
       );
       console.log(data);

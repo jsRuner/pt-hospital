@@ -8,6 +8,10 @@
   justify-content: center;
   height: 100%;
 }
+
+.tipInfo{
+  text-align: center;
+}
 .page-section{
   margin-bottom: 20rpx;
 }

@@ -3,8 +3,13 @@
 <!--index.wxml-->
 <view class="container">
 
+
+
 <view class='result-container'>
 
+
+
+    <block wx:if="{{isPt}}" >
 <view>
 名称:{{title}}
 </view>
@@ -14,14 +19,33 @@
 </view>
 
 
+<view class='warninfo'>
+【{{title}}】属于莆田系医院,就医请谨慎!
+</view>
+</block>
+
+<block wx:else="{{isPt}}" >
+<view >
+没有【{{searchKey}}】的信息,请通过其他渠道判断
+</view>
+</block>
 
 
+
+
+
+
+
+
+
+
+
+
+</view>
 
 
 <button type="primary" bindtap='backToIndex' hover-class="other-button-hover"> 返回 </button>
 
-
-</view>
  
 
 

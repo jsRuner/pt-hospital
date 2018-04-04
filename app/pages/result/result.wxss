@@ -10,3 +10,12 @@
 .result-container{
   padding:50rpx;
 }
+
+.result-container view{
+  text-align: center;
+}
+.warninfo{
+  color: red;
+  margin-top: 100rpx;
+}
+
