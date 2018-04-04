@@ -1,0 +1,29 @@
+<!--pages/result/result.wxml-->
+
+<!--index.wxml-->
+<view class="container">
+
+<view class='result-container'>
+
+<view>
+名称:{{title}}
+</view>
+
+<view>
+电话:{{phone}}
+</view>
+
+
+
+
+
+
+<button type="primary" bindtap='backToIndex' hover-class="other-button-hover"> 返回 </button>
+
+
+</view>
+ 
+
+
+
+</view>

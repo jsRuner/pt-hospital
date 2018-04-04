@@ -1,0 +1,12 @@
+/* pages/result/result.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  height: 100%;
+}
+
+
+.result-container{
+  padding:50rpx;
+}

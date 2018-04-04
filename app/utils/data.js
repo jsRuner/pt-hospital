@@ -3368,36 +3368,3 @@ var PTHospitalList = {
     ""
   ]
 };
-
-function checkPT(hostname, title, desc, tabId) {
-  hostname = hostname.toLowerCase();
-  var tmp = PTHospitalList[hostname];
-  if (tmp) {
-    // 显示图标
-    // chrome.pageAction.show(tabId);
-    return tmp;
-  }
-  else {
-    // 网址匹配不到，匹配title
-    for (var website in PTHospitalList) {
-      tmp = PTHospitalList[website];
-      // 匹配title和表述信息
-      if (title.indexOf(tmp[0]) !== -1 || desc.indexOf(tmp[0]) !== -1) {
-        //匹配到
-        // chrome.pageAction.show(tabId);
-        return tmp;
-      }
-    }
-  }
-  return []
-}
-
-
-module.exports.checkPT = checkPT
-
-
-
-
-
-
-
